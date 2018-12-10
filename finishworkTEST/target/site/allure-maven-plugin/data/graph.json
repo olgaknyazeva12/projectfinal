@@ -1,0 +1,81 @@
+[ {
+  "uid" : "71133765ba0f09e0",
+  "name" : "testForRemoveFromSpamAllMessages",
+  "time" : {
+    "start" : 1544363858588,
+    "stop" : 1544363885771,
+    "duration" : 27183
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3d8ebc21400478bf",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1544363830093,
+    "stop" : 1544363830095,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6cbc923b0e6bf5b",
+  "name" : "testForAddToFlag",
+  "time" : {
+    "start" : 1544363891553,
+    "stop" : 1544363918922,
+    "duration" : 27369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aa8b171a30ce5e9",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1544363830075,
+    "stop" : 1544363830075,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "979d92935f70b603",
+  "name" : "Runs Cucumber Feature",
+  "time" : {
+    "start" : 1544363830049,
+    "stop" : 1544363830063,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9bd5bf160cf37d1",
+  "name" : "testForAddToSpamAllMessages",
+  "time" : {
+    "start" : 1544363835386,
+    "stop" : 1544363852979,
+    "duration" : 17593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf5eb592ddd55529",
+  "name" : "testForAddToTrashMessages",
+  "time" : {
+    "start" : 1544363949840,
+    "stop" : 1544363967776,
+    "duration" : 17936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8966fb4e19ee5fba",
+  "name" : "testForRemoveFromFlag",
+  "time" : {
+    "start" : 1544363924956,
+    "stop" : 1544363943946,
+    "duration" : 18990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

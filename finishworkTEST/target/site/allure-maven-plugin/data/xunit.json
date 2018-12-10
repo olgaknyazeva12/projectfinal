@@ -1,0 +1,191 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 7,
+    "unknown" : 0,
+    "total" : 8
+  },
+  "time" : {
+    "minDuration" : 0,
+    "maxDuration" : 27369,
+    "sumDuration" : 109087,
+    "start" : 1544363830049,
+    "stop" : 1544363967776,
+    "duration" : 137727
+  },
+  "children" : [ {
+    "uid" : "11ca2987275d7804",
+    "name" : "Surefire suite",
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 27369,
+      "sumDuration" : 109087,
+      "start" : 1544363830049,
+      "stop" : 1544363967776,
+      "duration" : 137727
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "3e83466c868259ed",
+      "name" : "Surefire test",
+      "time" : {
+        "minDuration" : 0,
+        "maxDuration" : 27369,
+        "sumDuration" : 109087,
+        "start" : 1544363830049,
+        "stop" : 1544363967776,
+        "duration" : 137727
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "5a9a7d6a19061226",
+        "name" : "pack.TestNGForMailBoxMessages",
+        "time" : {
+          "minDuration" : 17593,
+          "maxDuration" : 27369,
+          "sumDuration" : 109071,
+          "start" : 1544363835386,
+          "stop" : 1544363967776,
+          "duration" : 132390
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 1,
+          "skipped" : 0,
+          "passed" : 4,
+          "unknown" : 0,
+          "total" : 5
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "71133765ba0f09e0",
+          "name" : "testForRemoveFromSpamAllMessages",
+          "time" : {
+            "start" : 1544363858588,
+            "stop" : 1544363885771,
+            "duration" : 27183
+          },
+          "status" : "broken",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "d6cbc923b0e6bf5b",
+          "name" : "testForAddToFlag",
+          "time" : {
+            "start" : 1544363891553,
+            "stop" : 1544363918922,
+            "duration" : 27369
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "a9bd5bf160cf37d1",
+          "name" : "testForAddToSpamAllMessages",
+          "time" : {
+            "start" : 1544363835386,
+            "stop" : 1544363852979,
+            "duration" : 17593
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "bf5eb592ddd55529",
+          "name" : "testForAddToTrashMessages",
+          "time" : {
+            "start" : 1544363949840,
+            "stop" : 1544363967776,
+            "duration" : 17936
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "8966fb4e19ee5fba",
+          "name" : "testForRemoveFromFlag",
+          "time" : {
+            "start" : 1544363924956,
+            "stop" : 1544363943946,
+            "duration" : 18990
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        } ]
+      }, {
+        "uid" : "ae82c6a702290009",
+        "name" : "pack.CucumberJvmTest",
+        "time" : {
+          "minDuration" : 0,
+          "maxDuration" : 14,
+          "sumDuration" : 16,
+          "start" : 1544363830049,
+          "stop" : 1544363830095,
+          "duration" : 46
+        },
+        "statistic" : {
+          "failed" : 0,
+          "broken" : 0,
+          "skipped" : 0,
+          "passed" : 3,
+          "unknown" : 0,
+          "total" : 3
+        },
+        "type" : "TestGroupNode",
+        "children" : [ {
+          "uid" : "3d8ebc21400478bf",
+          "name" : "Runs Cucumber Feature",
+          "time" : {
+            "start" : 1544363830093,
+            "stop" : 1544363830095,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "flaky" : true,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "5aa8b171a30ce5e9",
+          "name" : "Runs Cucumber Feature",
+          "time" : {
+            "start" : 1544363830075,
+            "stop" : 1544363830075,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "flaky" : true,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "979d92935f70b603",
+          "name" : "Runs Cucumber Feature",
+          "time" : {
+            "start" : 1544363830049,
+            "stop" : 1544363830063,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "flaky" : true,
+          "type" : "TestCaseNode"
+        } ]
+      } ]
+    } ]
+  } ]
+}
